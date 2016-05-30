@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AdapterPattern/AdapterPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BuilderPattern/BuilderPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AbstractFactoryPattern/AbstractFactoryPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FactoryPattern/FactoryPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SingletonPattern/SingletonPattern.xcodeproj">
    </FileRef>
    <FileRef

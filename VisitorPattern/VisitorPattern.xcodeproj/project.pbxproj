@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64A59AFE1CFC14E6008068A4 /* ElementA.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A59AFD1CFC14E6008068A4 /* ElementA.m */; };
+		64A59B011CFC1601008068A4 /* ElementB.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A59B001CFC1601008068A4 /* ElementB.m */; };
+		64A59B041CFC1994008068A4 /* ElementCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A59B031CFC1994008068A4 /* ElementCollection.m */; };
+		64A59B071CFC1D0D008068A4 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A59B061CFC1D0D008068A4 /* Visitor.m */; };
 		64E48B241CF85A0000D9A812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E48B231CF85A0000D9A812 /* main.m */; };
 		64E48B271CF85A0000D9A812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E48B261CF85A0000D9A812 /* AppDelegate.m */; };
 		64E48B2A1CF85A0000D9A812 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E48B291CF85A0000D9A812 /* ViewController.m */; };
@@ -35,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64A59AFA1CFC1334008068A4 /* VisitorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorProtocol.h; sourceTree = "<group>"; };
+		64A59AFB1CFC13FE008068A4 /* ElementProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementProtocol.h; sourceTree = "<group>"; };
+		64A59AFC1CFC14E6008068A4 /* ElementA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementA.h; sourceTree = "<group>"; };
+		64A59AFD1CFC14E6008068A4 /* ElementA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementA.m; sourceTree = "<group>"; };
+		64A59AFF1CFC1601008068A4 /* ElementB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementB.h; sourceTree = "<group>"; };
+		64A59B001CFC1601008068A4 /* ElementB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementB.m; sourceTree = "<group>"; };
+		64A59B021CFC1994008068A4 /* ElementCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementCollection.h; sourceTree = "<group>"; };
+		64A59B031CFC1994008068A4 /* ElementCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementCollection.m; sourceTree = "<group>"; };
+		64A59B051CFC1D0D008068A4 /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		64A59B061CFC1D0D008068A4 /* Visitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
 		64E48B1F1CF85A0000D9A812 /* VisitorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E48B231CF85A0000D9A812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64E48B251CF85A0000D9A812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +119,16 @@
 				64E48B261CF85A0000D9A812 /* AppDelegate.m */,
 				64E48B281CF85A0000D9A812 /* ViewController.h */,
 				64E48B291CF85A0000D9A812 /* ViewController.m */,
+				64A59AFC1CFC14E6008068A4 /* ElementA.h */,
+				64A59AFD1CFC14E6008068A4 /* ElementA.m */,
+				64A59AFF1CFC1601008068A4 /* ElementB.h */,
+				64A59B001CFC1601008068A4 /* ElementB.m */,
+				64A59B021CFC1994008068A4 /* ElementCollection.h */,
+				64A59B031CFC1994008068A4 /* ElementCollection.m */,
+				64A59B051CFC1D0D008068A4 /* Visitor.h */,
+				64A59B061CFC1D0D008068A4 /* Visitor.m */,
+				64A59AFA1CFC1334008068A4 /* VisitorProtocol.h */,
+				64A59AFB1CFC13FE008068A4 /* ElementProtocol.h */,
 				64E48B2B1CF85A0000D9A812 /* Main.storyboard */,
 				64E48B2E1CF85A0000D9A812 /* Assets.xcassets */,
 				64E48B301CF85A0000D9A812 /* LaunchScreen.storyboard */,
@@ -270,7 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A59AFE1CFC14E6008068A4 /* ElementA.m in Sources */,
 				64E48B2A1CF85A0000D9A812 /* ViewController.m in Sources */,
+				64A59B071CFC1D0D008068A4 /* Visitor.m in Sources */,
+				64A59B041CFC1994008068A4 /* ElementCollection.m in Sources */,
+				64A59B011CFC1601008068A4 /* ElementB.m in Sources */,
 				64E48B271CF85A0000D9A812 /* AppDelegate.m in Sources */,
 				64E48B241CF85A0000D9A812 /* main.m in Sources */,
 			);
@@ -496,6 +524,7 @@
 				64E48B4E1CF85A0000D9A812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64E48B4F1CF85A0000D9A812 /* Build configuration list for PBXNativeTarget "VisitorPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				64E48B511CF85A0000D9A812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64E48B521CF85A0000D9A812 /* Build configuration list for PBXNativeTarget "VisitorPatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +542,7 @@
 				64E48B541CF85A0000D9A812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

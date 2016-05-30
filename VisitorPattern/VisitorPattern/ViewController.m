@@ -8,7 +8,17 @@
 
 #import "ViewController.h"
 
+#import "ElementCollection.h"
+
+#import "ElementA.h"
+#import "ElementB.h"
+
+#import "Visitor.h"
+
+
 @interface ViewController ()
+
+@property(nonatomic,strong)ElementCollection *collection;
 
 @end
 
@@ -16,7 +26,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.collection = [[ElementCollection alloc] init];
+    [self.collection addElement:[[ElementA alloc] init] withKey:@"ElementA"];
+    [self.collection addElement:[[ElementB alloc] init] withKey:@"ElementB"];
+    
+    for (int i =0; i<self.collection.allKeys.count; i++) {
+        NSString *key = self.collection.allKeys[i];
+        id<ElementProtocol> element = [self.collection elementWithKey:key];
+        Visitor *visitor = [[Visitor alloc] init];
+        [element accept:visitor];
+        
+    }
+    
+   
 }
 
 - (void)didReceiveMemoryWarning {
