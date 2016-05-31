@@ -55,7 +55,7 @@
 }
 
 -(void)loadData:(id<BusinessCardAdapterProtocol>)data{
-// adapter
+// adapter  id<BusinessCardAdapterProtocol>  遵守BusinessCardAdapterProtocol协议的id类型
     self.name = [data name];
     self.lineColor = [data lineColor];
     self.phoneNumber = [data phoneNumber];

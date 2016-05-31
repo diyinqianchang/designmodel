@@ -12,6 +12,7 @@
 
 @interface BusinessCardAdapter : NSObject<BusinessCardAdapterProtocol>
 
+//接受数据 类型
 @property(nonatomic,weak)id data;
 
 -(instancetype)initWithData:(id)data;

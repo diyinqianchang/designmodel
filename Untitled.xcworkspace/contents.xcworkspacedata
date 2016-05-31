@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MediatorPattern/MediatorPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FacadePattern/FacadePattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BridgePattern/BridgePattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:AdapterPattern/AdapterPattern.xcodeproj">
    </FileRef>
    <FileRef

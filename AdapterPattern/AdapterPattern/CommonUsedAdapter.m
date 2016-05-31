@@ -31,6 +31,10 @@
     return name;
 
 }
+
+
+
+//适配不同类型的颜色
 -(UIColor *)lineColor{
 
     UIColor *lineColor = nil;
@@ -46,8 +50,6 @@
         
             lineColor = [UIColor blackColor];
         }
-        
-        
         
     }else if ([self.data isMemberOfClass:[NormalModel class]]){
     
